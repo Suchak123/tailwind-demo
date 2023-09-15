@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="text-gray-600 font-sherif bg-red-40">
+
+  <div class="grid md:grid-cols-3">
+    <div class="md:col-span-1 md:justify-end">
+      <nav class="text-right">
+        <div class="flex justify-between items-center">
+          <h1 class="text-orange-400 font-bold uppercase p-4 border-b border-grey-100">
+            <a href="/" class="hover:text-gray-700">Food Ninja</a>
+          </h1>
+          <div class="px-4 cursor-pointer md:hidden">
+            <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+            </svg>
+            
+            
+          </div>
+        </div>
+        <ul class="text-sm mt-6 hidden md:block">
+          <li class="text-gray-700 font-bold py-1">
+            <a href="#" class="px-4 flex justify-end border-r-4 border-blue-300">
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+              <span>Home</span>
+              
+            </a>
+          </li>
+          <li class="text-gray-700 font-bold py-1">
+            <a href="#" class="px-4 flex justify-end">
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm11.378-3.917c-.89-.777-2.366-.777-3.255 0a.75.75 0 01-.988-1.129c1.454-1.272 3.776-1.272 5.23 0 1.513 1.324 1.513 3.518 0 4.842a3.75 3.75 0 01-.837.552c-.676.328-1.028.774-1.028 1.152v.75a.75.75 0 01-1.5 0v-.75c0-1.279 1.06-2.107 1.875-2.502.182-.088.351-.199.503-.331.83-.727.83-1.857 0-2.584zM12 18a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
+              </svg>
+              <span>About</span>
+              
+            </a>
+          </li>
+          <li class="text-gray-700 font-bold py-1">
+            <a href="#" class="px-4 flex justify-end">
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+              </svg>
+              <span>Contact</span>
+              
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  
+    <main class="px-16 py-6 bg-red-50 md:col-span-2">
+      <div class="flex justify-center md:justify-end">
+        <a href="#" class="btn-rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider text-red-300 border-red-400 rounded-full md:border-2 hover:bg-red-400 hover:text-white transition ease-out duration-500">Log in</a>
+        <a href="#" class="btn-rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider ml-2 text-red-300 border-red-400 rounded-full md:border-2 hover:bg-red-400 hover:text-white transition ease-out duration-500">Sign up</a>
+      </div>
+
+      <header>
+        <h2 class="text-gray-700 text-4xl font-semibold">Recipes</h2>
+        <h3 class="text-xl font-semibold">For Ninjas</h3>
+      </header>
+
+      <div>
+        <h4 class="text-gray-700 font-bold mt-12 pb-2 border-b border-grey-200">Latest Recipes</h4>
+  
+        <div class="mt-8 grid lg:grid-cols-3 gap-10">
+          <!-- cards go here -->
+          <div class="bg-white rounded overflow-hidden shadow-red-200 shadow-md relative hover:shadow-lg hover:shadow-red-200"> 
+            <img src="images/download2.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-grey-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="bg-pink-200 text-pink-500 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2 ">
+              <span>25 minutes</span>
+            </div>
+          </div>
+          <div class="bg-white rounded overflow-hidden shadow-red-200 shadow-md relative hover:shadow-lg hover:shadow-red-200"> 
+            <img src="images/download2.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-grey-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="bg-pink-200 text-pink-500 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2 ">
+              <span>25 minutes</span>
+            </div>
+          </div>
+          <div class="bg-white rounded overflow-hidden shadow-red-200 shadow-md relative hover:shadow-lg hover:shadow-red-200"> 
+            <img src="images/download2.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-grey-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="bg-pink-200 text-pink-500 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2 ">
+              <span>25 minutes</span>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="font-bold mt-12 pb-2 border-b border-grey-200">Most Popular</h4>
+
+        <div class="mt-8 ">
+          <!-- cards go here -->
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="btn-rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider border-grey-500 border-2 rounded-full hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50">Load more</div>
+      </div>    
+    </main>
+  </div>
+
+</body>
+</html>
